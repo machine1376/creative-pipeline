@@ -7,7 +7,6 @@ __pycache__/
 venv/
 env/
 outputs/
-assets/*/hero.png
 *.egg-info/
 .DS_Store
 .pytest_cache/

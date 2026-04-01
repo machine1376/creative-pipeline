@@ -1,3 +1,3 @@
-# Product assets (local cache)
+# Product assets
 
-Optional hero images live at `assets/<product_id>/hero.png`. Those files are listed in `.gitignore` so generated or local art is not committed. After clone, run with `--mock` or supply heroes here; see the project README.
+Hero images live at `assets/<product_id>/hero.png`. Sample heroes are committed here; add or replace files as needed. See the project README for pipeline behavior.
