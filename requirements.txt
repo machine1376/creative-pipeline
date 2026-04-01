@@ -1,0 +1,14 @@
+# Creative Automation Pipeline — Python dependencies
+#
+# Core
+Pillow>=10.0.0          # Image generation, composition, and manipulation
+PyYAML>=6.0             # Campaign brief and brand guidelines parsing
+requests>=2.31.0        # Fetching generated images from DALL-E CDN
+
+# GenAI (live mode)
+openai>=1.30.0          # DALL-E 3 image generation
+python-dotenv>=1.0.0    # Load OPENAI_API_KEY from .env for CLI runs
+streamlit>=1.28.0       # Web UI: streamlit run streamlit_app.py
+
+# Optional: richer CLI output
+# rich>=13.0.0          # Uncomment for colored terminal output

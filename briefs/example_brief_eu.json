@@ -1,0 +1,25 @@
+{
+  "campaign_id": "holiday_promo_eu",
+  "campaign_message": "Give the gift of experience",
+  "campaign_theme": "Warm, festive, premium gifting season",
+  "target_region": "Europe",
+  "target_market": "United Kingdom",
+  "target_audience": "Affluent professionals aged 30-50 seeking premium gifts",
+  "language": "en",
+  "products": [
+    {
+      "id": "artisan_coffee",
+      "name": "Reserve Blend Coffee",
+      "description": "Single-origin Ethiopian Yirgacheffe, ethically sourced and small-batch roasted. Notes of bergamot, jasmine, and dark chocolate.",
+      "tagline": "Crafted for those who know the difference.",
+      "product_theme": "Warm coffee roast, chocolate and bergamot notes"
+    },
+    {
+      "id": "luxury_skincare_set",
+      "name": "Lumière Skincare Set",
+      "description": "A curated trio of vitamin C serum, hyaluronic acid moisturiser, and retinol eye cream. Dermatologist-tested, cruelty-free.",
+      "tagline": "Science. Elegance. Results.",
+      "product_theme": "Luxury skincare, soft pearl and rose gold glow"
+    }
+  ]
+}

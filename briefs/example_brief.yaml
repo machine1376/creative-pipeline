@@ -1,0 +1,43 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Example Campaign Brief — Creative Automation Pipeline
+#
+# This brief drives a summer wellness campaign across two products for the
+# North American market. The pipeline will:
+#   1. Check the assets/ folder for pre-existing hero images.
+#   2. Generate missing images via DALL-E 3 (or mock placeholders).
+#   3. Compose creatives for 1:1, 9:16, and 16:9 aspect ratios.
+#   4. Run brand + legal compliance checks.
+#   5. Save outputs under outputs/summer_wellness_na/.
+# ─────────────────────────────────────────────────────────────────────────────
+
+campaign_id: summer_wellness_na
+campaign_message: "Fuel your journey sustainably"
+campaign_theme: "Clean energy, vibrant life, sun-drenched outdoor lifestyle"
+
+target_region: North America
+target_market: United States
+target_audience: "Health-conscious millennials aged 25–35 who prioritize sustainability"
+language: en
+
+products:
+  - id: eco_water_bottle
+    name: "EcoFlow Bottle"
+    description: >
+      A 32oz sustainable water bottle made from 100% ocean-recycled plastic.
+      Features double-wall vacuum insulation keeping drinks cold for 24 hours.
+    tagline: "Hydrate. Sustain. Repeat."
+    # Drives gradient tint with campaign + brand (ocean / aqua keywords).
+    product_theme: "Cool hydration, ocean blues, fresh water"
+    # Uncomment to use a pre-existing local image (skips generation):
+    # asset_path: "assets/eco_water_bottle/hero.png"
+
+  - id: power_blend_protein
+    name: "PowerBlend Protein"
+    description: >
+      Premium plant-based protein powder with 25g protein per serving.
+      Available in Vanilla, Chocolate, and Mixed Berry flavors.
+      NSF Certified for Sport.
+    tagline: "Clean protein. Real performance."
+    product_theme: "Plant energy, cocoa and berry tones, gym performance"
+    # Optional: lock overlay hue (still blended with brand primary):
+    # theme_color: "#8d4e2a"

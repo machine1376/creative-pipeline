@@ -1,0 +1,27 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Brand Guidelines — Creative Automation Pipeline
+#
+# These values are loaded by the pipeline at runtime.
+# Edit to match your actual brand identity.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Brand colors (hex)
+primary_color: "#1a73e8"       # Used for gradient overlay tinting
+secondary_color: "#ffffff"     # Text color
+accent_color: "#fbbc04"        # CTAs, highlights (future use)
+
+# Optional: path to a PNG/SVG logo (RGBA recommended for transparency support)
+# The logo will be placed in the top-right corner of every creative.
+# logo_path: "assets/brand_logo.png"
+
+# Legal: words that must never appear in campaign content
+prohibited_words:
+  - "guaranteed"
+  - "clinically proven"
+  - "miracle"
+  - "cure"
+  - "free money"
+  - "no risk"
+
+# Legal: a disclaimer that must appear somewhere in the campaign text (optional)
+# required_disclaimer: "Terms and conditions apply."
