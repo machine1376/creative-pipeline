@@ -11,7 +11,7 @@ Use the **CLI** (`main.py`) or the optional **Streamlit** UI (`streamlit_app.py`
 
 ```bash
 # 1. Clone and install (use a virtualenv — required on many macOS/Homebrew Python setups)
-git clone <your-repo-url>
+git clone https://github.com/machine1376/creative-pipeline.git
 cd creative-pipeline
 python3 -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
